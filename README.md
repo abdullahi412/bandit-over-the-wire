@@ -83,4 +83,21 @@ This README documents my journey through the Bandit game levels 0 to 8 on OverTh
 
 ---
 
+## Level 7
+- **Objective:** Find the line of text that occurs only once in the file `data.txt`.
+- **Steps:**
+  1. Used `ls`, which displayed the `data.txt` file.
+  2. The hint specified that the password is the **only unique line** in the file.
+  3. Used the command: `cat data.txt | grep "millionth"`
+- **Answer:** `dfwvzFQi4mU0wfNbOe9RoWskMLg7eEc`
+
+---
+
+## Level 8
+- **Objective:** Find the unique line of text in `data.txt`.
+- **Steps:**
+  1. Used `ls`, which displayed the `data.txt` file.
+  2. Since the file contained random lines, used `sort` and `uniq` to filter the unique line.
+  3. Command: `sort data.txt | uniq -u`
+- **Answer:** `4CKMh1JI91bUIZZPXDqGanal4xvAg0JM`
 
